@@ -1,4 +1,6 @@
-def call()
-{
-echo "hello my jenkins friend"
+def call(wewew)
+{wesa
+echo "ewewhello my jenkins friend"
+}
+}
 }
