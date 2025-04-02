@@ -5,6 +5,6 @@ withCredentials([usernamePassword(credentialsId: 'docker-credentials', passwordV
                     sh "docker login -u ${dockerHubUser} -p ${dockerHubPass}"
                 }
                     // sh "docker image tag $IMAGE_NAME $PUSH_IMAGE"
-                    sh "docker push ${dockerHubuser}/${Project}:${ImageTag}"
+                    sh "docker push ${dockerHubUser}/${Project}:${ImageTag}"
                     echo "Image pushed to Docker Hub successfully."
 }
